@@ -1,0 +1,30 @@
+<?php include "includes/sessionCheck.php" ?>
+<?php include "includes/globalVars.php" ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Choose your adventure!</title>
+  <?php include "includes/allCss.php" ?>
+</head>
+<body>
+
+  <!-- Primary Page Layout -->
+  <div class="container">
+      <?php include "includes/userHeader.php" ?>
+
+      <div class="row">
+          <div  id="nav" class="twelve columns">
+    		  <ul>
+			      <li><a href="teams.php">Team List / Pictures</a></li>
+    		      <li><a href="matchscoutingSelect.php">Match Scouting</a></li>
+			      <li><a href="driverfeedbackSelect.php">Driver Feedback</a></li>
+			      <li><a href="reportsMain.php">View Reports</a></li>
+			      <?php if ($_SESSION['role'] == "admin") { ?><li><a href="admin.php">Admin</li><?php } ?>
+		      </ul>
+          </div>
+      </div>
+  </div>
+
+<!-- End Document -->
+</body>
+</html>

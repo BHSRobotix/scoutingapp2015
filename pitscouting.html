@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Pit Scouting</title>
+</head>
+<body>
+	<div id="main">
+		<h1>Pit Scouting</h1>
+		<form method="post" enctype="multipart/form-data"  action="upload.php">
+    		
+      
+			What is their drive train? <br>
+			<input type="radio" name="drivetrain" value="mech"> Mecanum 
+			<input type="radio" name="drivetrain" value="swer"> Swerve/Crab
+			<input type="radio" name="drivetrain" value="tank"> Tank
+
+
+			<!-- db.php?drivertrain=false& --> <br>
+
+			<strong> Strategy </strong> <br>
+			What is their overall strategy? <br>
+			<input type="text" name="strategy" style="width: 800px;" />
+
+			<!-- db.php?Strategy=false& --> <br>
+			What is their autonomous strategy? <br>
+			<input type="text" name="auto" style="width: 800px;" />
+
+			<!-- db.php?Auto=false& --> <br>
+
+			<strong> Comments </strong> <br>
+
+			<input type="text" name="comments" style="width: 800px;" />
+			<br><br>
+			
+			
+    		<button type="submit" id="btn">Upload Files!</button>
+			
+			<input type="file" name="images" id="images" multiple />
+    	</form>
+
+  	<div id="response"></div>
+		<ul id="image-list">
+
+		</ul>
+	</div>
+	
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/upload.js"></script>
+</body>
+</html>

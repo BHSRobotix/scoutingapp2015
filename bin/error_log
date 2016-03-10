@@ -1,0 +1,5 @@
+[06-Sep-2011 14:38:39] PHP Fatal error:  Call to undefined function  mysql_rewal_escape_string() in /home8/muslimse/public_html/store_locator/bin/backend.php on line 70
+[06-Sep-2011 14:38:39] PHP Fatal error:  Call to undefined function  mysql_rewal_escape_string() in /home8/muslimse/public_html/store_locator/bin/backend.php on line 70
+[06-Sep-2011 14:51:26] PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /home8/muslimse/public_html/store_locator/bin/backend.php on line 72
+[06-Sep-2011 14:55:00] PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /home8/muslimse/public_html/store_locator/bin/backend.php on line 72
+[06-Sep-2011 14:55:46] PHP Warning:  sprintf() [<a href='function.sprintf'>function.sprintf</a>]: Too few arguments in /home8/muslimse/public_html/store_locator/bin/backend.php on line 72
